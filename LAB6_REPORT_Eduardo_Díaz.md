@@ -5,7 +5,7 @@ A continuación, se proceden a indicar los pasos seguidos para la realización d
 Se inicia la aplicación web y los microservicios de la siguiente manera:
 
 gradle :web:bootRun
-![](./images/LanzadoWeb.png)
+![](./images/LanzadoWeb.PNG)
 
 
 gradle :accounts:bootRun
