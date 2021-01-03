@@ -2,8 +2,7 @@
 
 A continuación, se proceden a indicar los pasos seguidos para la realización de la práctica.
 
-# Punto 1: Comprobar que los dos microservicios estar corriendo y se han registrado.
-Para ello, basta con iniciar la aplicación web y los microservicios de la siguiente manera:
+Se inicia la aplicación web y los microservicios de la siguiente manera:
 
 gradle :web:bootRun
 ![](/images/LanzadoWeb.png)
