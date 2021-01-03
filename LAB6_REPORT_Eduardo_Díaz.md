@@ -9,21 +9,21 @@ gradle :web:bootRun
 
 
 gradle :accounts:bootRun
-![](./images/LanzadoAccounts.png)
+![](./images/LanzadoAccounts.PNG)
 
 
 gradle :registration:bootRun
-![](./images/LanzadoRegistration.png)
+![](./images/LanzadoRegistration.PNG)
 
 Accediendo al servidor de registro http://localhost:1111/ podemos ver los dos microservicios registrados:
-![](./images/AmbosServicios.png)
+![](./images/AmbosServicios.PNG)
 
 Para lanzar otro servicio accounts en el puerto 4444, modificamos el puerto indicado en el archivo 
 application.yml en accounts/src/main/resources.
-![](./images/Puerto4444.png)
+![](./images/Puerto4444.PNG)
 
 Ahora ya se puede ver que tenemos dos servicios disponibles para accounts
-![](./images/TresServicios.png)
+![](./images/TresServicios.PNG)
 
 Al matar el servicio de accounts del puerto 2222, todavia permite obtener informacion de las cuentas ya 
 que queda el que esta corriendo en el puerto 4444, ya que habia dos registrados. De esta manera podemos
